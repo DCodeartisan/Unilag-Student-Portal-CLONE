@@ -1,0 +1,11 @@
+{
+  "name": "unilag-student-portal",
+  "version": "1.0.0",
+  "description": "A Clone Project of Unilag Student Portal Login Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "D Codeartisan",
+  "license": "ISC"
+}
