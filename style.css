@@ -45,7 +45,6 @@ img {
     }
     #boxB {
         border: none !important;
-        border-color: red;
         background-color: #fff !important;
         height: 100% !important;
         width: 100% !important;
@@ -73,7 +72,7 @@ img {
         width: 100% !important;
         padding: 10px !important;
         font-size: 0.85em !important;
-        color: #fff;
+        color: #fff !important;
         border: 1px solid #80c3d8 !important;
         background-color: #80c3d8 !important;
         border-radius: 4px !important;
@@ -97,5 +96,33 @@ img {
     #boxB {
         width: 512px; 
         height: 489.60px;
+    }
+    #boxB h3 {
+        padding-bottom: 12px !important;
+        text-align: center !important;  
+    }
+    form {
+        padding: -10px !important;
+        padding-top: 8px !important;
+        padding-bottom: 22px !important;
+        padding-left: 22px !important;
+        padding-right: 22px !important;
+    }
+    input {
+        width: 92.5% !important;
+        padding: 10px !important;
+        padding-left: 16px !important;
+        border: 1px solid #f0f1f1 !important;
+        background-color: #f9fafb !important;
+        border-radius: 4px !important;
+    }
+    .submit {
+        width: 100% !important;
+        padding: 10px !important;
+        font-size: 0.85em !important;
+        color: #fff !important;
+        border: 1px solid #80c3d8 !important;
+        background-color: #80c3d8 !important;
+        border-radius: 4px !important;
     }
 }
