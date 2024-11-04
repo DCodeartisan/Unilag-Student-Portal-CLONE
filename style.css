@@ -30,6 +30,9 @@ img {
 
   /* small screen */
 @media (max-width: 900px) {
+    #parent {
+        background-color: #fff !important;
+    }
     #boxA {
         display: none !important;
         visibility: hidden !important;
@@ -41,6 +44,9 @@ img {
         overflow-x: hidden !important;
     }
     #boxB {
+        border: none !important;
+        border-color: red;
+        background-color: #fff !important;
         height: 100% !important;
         width: 100% !important;
     }
@@ -49,6 +55,7 @@ img {
         text-align: center !important;  
     }
     form {
+        padding: -10px !important;
         padding-top: 8px !important;
         padding-bottom: 22px !important;
         padding-left: 22px !important;
