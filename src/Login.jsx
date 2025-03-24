@@ -1,4 +1,4 @@
-
+import Logo from './assets/Unilag_logo.png'
 function Login(){
 
     return(
@@ -17,7 +17,7 @@ function Login(){
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                 }}>
-                <img style={{width: "245px", height: "255px",}} src="./src/assets/Unilag_logo.png" alt="Unilag_logo" />
+                <img style={{width: "245px", height: "255px",}} src={Logo} alt="Unilag_logo" />
             </div>
 
             <div className="boxB"
