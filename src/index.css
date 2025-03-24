@@ -1,0 +1,156 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: sans-serif;
+  color: #4f4f5d;
+}
+img {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
+p {
+  display: flex;
+  justify-content: flex-end;
+}
+label,
+input {
+  font-size: 0.9001rem;
+}
+a {
+  text-decoration: none;
+  color: #2e72f1;
+  font-size: 0.9em;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+input:focus {
+  outline: none;
+}
+button {
+  cursor: pointer;
+}
+
+/* small screen */
+@media (max-width: 900px) {
+  .parent {
+    background-color: #fff !important;
+  }
+  .boxA {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  .parent {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    overflow-x: hidden !important;
+  }
+  .boxB {
+    border: none !important;
+    background-color: #fff !important;
+    height: 100% !important;
+    width: 100% !important;
+  }
+  .boxB h3 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-bottom: 12px !important;
+    text-align: center !important;
+  }
+  form {
+    padding: -10px !important;
+    padding-top: 8px !important;
+    padding-bottom: 22px !important;
+    padding-left: 22px !important;
+    padding-right: 22px !important;
+  }
+  input {
+    margin-top: 5px;
+    width: 92.5% !important;
+    padding: 10px !important;
+    padding-left: 16px !important;
+    border: 1px solid #ede !important;
+    background-color: #f9fafb !important;
+    border-radius: 4px !important;
+  }
+  .submit {
+    width: 100% !important;
+    padding: 10px !important;
+    font-size: 0.85em !important;
+    color: #fff !important;
+    border: 1px solid #80c3d8 !important;
+    background-color: #80c3d8 !important;
+    border-radius: 4px !important;
+  }
+}
+
+/* large screen */
+@media (min-width: 900px) {
+  body {
+    background-image: linear-gradient(to top, #e2f1f6, #f7fbfc) !important;
+    background-attachment: fixed !important;
+  }
+  .parent {
+    border-radius: 5px !important;
+    display: flex !important;
+    position: absolute !important;
+    top: 50%;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2) !important;
+  }
+  .boxB {
+    width: 512px;
+    height: 489.6px;
+  }
+  .boxB h3 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 23.5px !important;
+    padding-top: 20px !important;
+    padding-bottom: 12px !important;
+    text-align: center !important;
+  }
+  a {
+    padding-top: 10px !important;
+    padding-bottom: 15px !important;
+  }
+  form {
+    padding: -10px !important;
+    padding-top: 8px !important;
+    padding-bottom: 20px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+  input {
+    margin-top: 5px;
+    width: 92.5% !important;
+    padding: 10px !important;
+    padding-left: 16px !important;
+    border: 1px solid #ede !important;
+    background-color: #f9fafb !important;
+    border-radius: 4px !important;
+  }
+  .submit {
+    width: 100% !important;
+    padding: 10px !important;
+    font-size: 0.85em !important;
+    color: #fff !important;
+    border: 1px solid #80c3d8 !important;
+    background-color: #80c3d8 !important;
+    border-radius: 4px !important;
+  }
+}
